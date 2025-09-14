@@ -1,0 +1,1 @@
+Sistema de administración de usuarios desarrollado con Spring Boot, Spring Data JPA y MySQL, con interfaz frontend responsiva usando JavaScript y Bootstrap. Implementa operaciones CRUD y buenas prácticas profesionales para una gestión segura y eficiente de usuarios.
