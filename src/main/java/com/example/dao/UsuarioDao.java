@@ -7,6 +7,7 @@ import java.util.List;
 
 @Transactional
 public interface UsuarioDao {
-    List<Usuario> obtenerUsuarios();
+    List<Usuario> getUsuarios();
+    void eliminar (Long id);
 }
 
