@@ -18,7 +18,7 @@ public class Usuario {
     @Column(name = "apellido")
     private String apellido;
     @Column(name = "email")
-    private String mail;
+    private String email;
     @Column(name = "telefono")
     private String telefono;
     @Column(name = "password")
@@ -31,8 +31,8 @@ public class Usuario {
     public String getApellido() {
         return apellido;
     }
-    public String getMail() {
-        return mail;
+    public String getEmail() {
+        return email;
     }
     public String getTelefono() {
         return telefono;
@@ -53,8 +53,8 @@ public class Usuario {
         this.apellido = apellido;
     }
 
-    public void setMail(String mail) {
-        this.mail = mail;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public void setTelefono(String telefono) {
@@ -68,4 +68,6 @@ public class Usuario {
     public void setId(Long id) {
         this.id= id;
     }
+
+
 }
